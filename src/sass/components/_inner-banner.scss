@@ -5,7 +5,7 @@
 	}
 }
 .inner-shape {
-	background-image: url(assets/images/slider-pattern.png);
+	background-image: url(/assets/images/slider-pattern.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	content: "";
@@ -20,7 +20,7 @@
 .inner-banner-gray {
 	background-color: #FAFAFA;
 	.inner-shape {
-		background-image: url(assets/images/banner-pattern.png);
+		background-image: url(/assets/images/banner-pattern.png);
 	}
 }
 .inner-baner-container {
