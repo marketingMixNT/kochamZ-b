@@ -137,8 +137,8 @@
 	    left: 0;
 	    .circle-bar {
 	    	left: 100%;
-    		border-top-right-radius: (128px/2);
-    		border-bottom-right-radius: (128px/2);
+    		border-top-right-radius: (128px);
+    		border-bottom-right-radius: (128px);
     		border-left: 0;
     		-webkit-transform-origin: center left;
     		-moz-transform-origin: center left;
@@ -150,8 +150,8 @@
 	    right: 0;
 	    .circle-bar {
 	    	left: -100%;
-    		border-top-left-radius: (128px/2);
-    		border-bottom-left-radius: (128px/2);
+    		border-top-left-radius: (128px);
+    		border-bottom-left-radius: (128px);
     		border-right: 0;
     		-webkit-transform-origin: center right;
     		-moz-transform-origin: center right;

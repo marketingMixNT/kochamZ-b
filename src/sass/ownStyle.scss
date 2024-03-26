@@ -1,0 +1,35 @@
+@use './helpers/variables';
+
+.buttons {
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		margin-top: -0px;
+		background-color: variables.$secondary-color;
+	}
+	&__box {
+		border-right: 1px solid white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		padding-top: 30px;
+		padding-bottom: 15px;
+        
+
+        &:hover img{
+            transform: scale(1.1);
+        }
+
+		& img {
+			width: 32px;
+            transition: transform .3s;
+		}
+		& h2 {
+			font-size: 21px;
+			text-transform: uppercase;
+			color: white;
+		}
+	}
+}
